@@ -1,0 +1,73 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css");
+
+body{	
+	font-size: 15px;
+	color:black;
+	background-color:black;
+	margin: 0;
+	padding: 0;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+#container{
+	background-color:white;
+	margin: auto;
+	width: 100%;
+  	margin-top: 10;
+}
+#header{
+	text-align: center;
+ 	margin: auto;
+	height: 150px;
+	background: white;
+	margin-left: 75;
+}
+#content{
+margin-left: 75px}
+
+#navbar{
+	background:#cf1433;
+	text-align: center;
+	height: 65px;
+	padding-top:15px;
+}
+#navbar a{
+	margin: auto;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 25px;
+
+}
+#navbar a:hover {
+	color: #666666;
+	background-color: #FFFFFF;
+	font-size: 18px;
+	margin: auto;
+	border: 1px solid black;
+}
+#navbar li {
+	display: inline;
+	overflow: auto;
+}
+#footer{
+	text-align: left;
+	clear: both;
+	margin: auto;
+	padding: 25px;
+	color: white;
+	background: grey;
+}
+.btn-primary{
+	color:white;
+	background-color: #cf1433;
+	border-color: #cf1433;
+}
+.btn-primary:hover{
+	color:white;
+	background-color: green;
+	border-color: green;
+}
